@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+.fondo {
+    background-image: linear-gradient(to right, rgb(0 0 0 / .2), rgb(0 0 0 / .4)),
+        url(../src/public/header-restaurante.jpg);
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+}
